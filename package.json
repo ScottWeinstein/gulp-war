@@ -22,7 +22,8 @@
   },
   "dependencies": {
     "event-stream": "*",
-    "through": "~2.3.4"
+    "through": "~2.3.4",
+    "gulp-util": "~2.2.9"
   },
   "devDependencies": {
     "mocha": "~1.14.0",
