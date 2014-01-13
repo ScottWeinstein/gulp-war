@@ -1,8 +1,6 @@
-(PLUGIN AUTHOR: Please read [Plugin README conventions](https://github.com/gulpjs/gulp/wiki/Plugin-README-Conventions), then delete this line)
-
 # gulp-war [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][depstat-image]][depstat-url]
 
-Java [WAR](http://en.wikipedia.org/wiki/WAR_(file_format)) plugin for [gulp](https://github.com/gulpjs/gulp). Adapted from [grunt-war](https://github.com/MorrisLLC/grunt-war)
+Java WAR plugin for [gulp](https://github.com/gulpjs/gulp). Adapted from [grunt-war](https://github.com/MorrisLLC/grunt-war)
 
 ## Usage
 
