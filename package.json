@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "description": "A Java WAR file generator plugin for Gulp",
   "keywords": [
-    "gulpplugin war"
+    "gulpplugin",
+    "war"
   ],
   "homepage": "https://github.com/ScottWeinstein/gulp-war",
   "bugs": "https://github.com/ScottWeinstein/gulp-war/issues",
@@ -36,9 +37,5 @@
     "node": ">=0.10.0",
     "npm": ">=1.2.10"
   },
-  "licenses": [
-    {
-      "type": "MIT"
-    }
-  ]
+  "license": "MIT"
 }
