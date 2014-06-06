@@ -13,10 +13,10 @@ function emitwebXML(stream, opts) {
         '</mime-mapping>';
     });
 
-    var xml = '<web-app version="3.0"' +
+    var xml = '<web-app version="' + (opts.version || '3.0') + '"' +
     ' xmlns="http://java.sun.com/xml/ns/javaee"' +
     ' xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"' +
-    ' xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"' +
+    ' xsi:schemaLocation="' + (opts.schemaLocation || 'http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd') + '"' +
     '>\n' +
     '<display-name>' + opts.displayName + '</display-name>\n' +
     '<welcome-file-list>' +
