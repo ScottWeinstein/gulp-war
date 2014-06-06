@@ -36,7 +36,15 @@ Type: `String`
 #### options.displayName
 Type: `String`
 
+#### options.version
+Type: `String`
 
+Defines the version of web-app xml specification to use. By default "3.0".
+
+#### options.schemaLocation
+Type: `String`
+
+Defines the URI of web-app xml specification to use. By default "http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd".
 
 ## License
 
