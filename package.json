@@ -1,6 +1,6 @@
 {
   "name": "gulp-war",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "A Java WAR file generator plugin for Gulp",
   "keywords": [
     "gulpplugin",
