@@ -53,7 +53,7 @@ module.exports = function (options) {
 
     var onEnd = function () {
         emitwebXML(this, options);
-        this.emit('data', new File({path: 'META-INF/', contents: new Buffer('')}));
+        this.emit('data', new File({path: 'META-INF/', contents: null, stat: {isDirectory: function() {return true;}}}));
         this.emit('end');
     };
 
