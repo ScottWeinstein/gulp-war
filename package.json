@@ -1,6 +1,6 @@
 {
   "name": "gulp-war",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A Java WAR file generator plugin for Gulp",
   "keywords": [
     "gulpplugin",
@@ -23,13 +23,13 @@
   },
   "dependencies": {
     "event-stream": "*",
-    "through": "~2.3.4",
-    "gulp-util": "~2.2.9"
+    "gulp-util": "^3.0.6",
+    "through": "~2.3.4"
   },
   "devDependencies": {
-    "mocha": "~1.14.0",
-    "should": "~2.1.0",
-    "gulp": "~3.3.1",
+    "mocha": "^2.3.2",
+    "should": "^7.1.0",
+    "gulp": "^3.9.0",
     "gulp-zip": "~3.0.0"
   },
   "engines": {

@@ -1,4 +1,6 @@
-# gulp-war [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][depstat-image]][depstat-url]
+# gulp-war 
+
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][depstat-image]][depstat-url]
 
 Java WAR plugin for [gulp](https://github.com/gulpjs/gulp). Adapted from [grunt-war](https://github.com/MorrisLLC/grunt-war)
 
@@ -44,7 +46,7 @@ Defines the version of web-app xml specification to use. By default "3.0".
 #### options.schemaLocation
 Type: `String`
 
-Defines the URI of web-app xml specification to use. By default "http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd".
+Defines the URI of web-app xml specification to use. By default http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd
 
 ## License
 
