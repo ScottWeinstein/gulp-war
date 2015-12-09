@@ -48,6 +48,13 @@ Type: `String`
 
 Defines the URI of web-app xml specification to use. By default http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd
 
+#### options.webappExtras
+Type: `Array`
+
+Allows you to pass a list of strings that will be added to the end of resulting XML file. Instead of strings you can pass a list of functions, in this case the results of functions will be added to the template.
+
+By default webappExtras is an empty array;
+
 ## License
 
 [MIT License](http://en.wikipedia.org/wiki/MIT_License)
