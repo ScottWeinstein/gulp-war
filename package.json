@@ -22,7 +22,7 @@
     "test": "mocha"
   },
   "dependencies": {
-    "event-stream": "3.3.2",
+    "event-stream": "3.3.3",
     "gulp-util": "3.0.7",
     "through": "2.3.8"
   },
