@@ -27,7 +27,7 @@
     "through": "2.3.8"
   },
   "devDependencies": {
-    "mocha": "3.1.2",
+    "mocha": "3.4.1",
     "should": "11.2.0",
     "gulp": "3.9.1",
     "gulp-zip": "3.2.0"
