@@ -1,5 +1,7 @@
 # gulp-war 
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ScottWeinstein/gulp-war.svg)](https://greenkeeper.io/)
+
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][depstat-image]][depstat-url]
 
 Java WAR plugin for [gulp](https://github.com/gulpjs/gulp). Adapted from [grunt-war](https://github.com/MorrisLLC/grunt-war)
